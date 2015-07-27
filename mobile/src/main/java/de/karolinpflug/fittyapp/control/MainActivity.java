@@ -2,7 +2,6 @@ package de.karolinpflug.fittyapp.control;
 
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -11,10 +10,9 @@ import butterknife.ButterKnife;
 import de.karolinpflug.fittyapp.R;
 
 
-public class MainActivity extends ActionBarActivity {
-    private static final String TAG = "MainActivity";
+public class MainActivity extends AppCompatActivity {
 
-    @Bind(r.id.toolbar) Toolbar mToolbar;
+    @Bind(R.id.toolbar) Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +22,4 @@ public class MainActivity extends ActionBarActivity {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
-
-
-
 }

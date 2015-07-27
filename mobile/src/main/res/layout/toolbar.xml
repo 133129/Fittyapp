@@ -19,7 +19,7 @@
             android:id="@+id/imagelogo"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:src="@mipmap/logo"
+            android:src="@mipmap/ic_launcher"
             android:layout_marginLeft="250dp" />
 
     </RelativeLayout>
