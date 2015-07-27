@@ -1,8 +1,13 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- activity_main color of fittyapp -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- darker color of miblo app -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- accent color -->
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
 </resources>
