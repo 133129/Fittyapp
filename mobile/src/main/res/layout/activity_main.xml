@@ -28,14 +28,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Training"
-            android:id="@+id/ButtonTraining"
+            android:id="@+id/buttonTraining"
             android:layout_weight="0.20" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Übungen/ Pläne hinzufügen"
-            android:id="@+id/buttonHinzufuegen"
+            android:id="@+id/buttonEditworkout"
             android:layout_weight="0.20" />
 
         <Button
