@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entriesNotificationPreference">
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>12 Stunden</item>
+        <item>1 Tag</item>
+        <item>keine Benachrichtigungen</item>
+    </string-array>
+</resources>

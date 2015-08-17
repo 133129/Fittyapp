@@ -1,10 +1,10 @@
-package de.karolinpflug.fittyapp.training;
+/*package de.karolinpflug.fittyapp.training;
 
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.os.Bundle;
 
-public class TrainingWorkoutplanDetails extends Activity{
+public class TrainingWorkoutplanDetails extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,7 +15,12 @@ public class TrainingWorkoutplanDetails extends Activity{
         }
 
         if (savedInstanceState == null){
-            DetailsFragment details = new DetailsFragment();
+            TrainingDetailsFragment details = new TrainingDetailsFragment();
+
+            details.setArguments(getIntent().getExtras());
+
+            getFragmentManager().beginTransaction().add(android.R.id.content, details).commit();
         }
     }
 }
+*/

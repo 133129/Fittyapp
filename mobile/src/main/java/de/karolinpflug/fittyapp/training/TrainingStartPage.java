@@ -1,7 +1,5 @@
 package de.karolinpflug.fittyapp.training;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -17,14 +15,12 @@ public class TrainingStartPage extends BaseActivity {
         if(getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        setContentView(R.layout.layout_trainingstartpage);
-
     }
 
-   // @Override
-   // protected int getLayoutResourceId() {
-   //     return R.layout.layout_trainingstartpage;
-   // }
+   @Override
+    protected int getLayoutResourceId() {
+        return R.layout.layout_trainingstartpage;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -36,6 +32,4 @@ public class TrainingStartPage extends BaseActivity {
                 return false;
         }
     }
-
-
 }
